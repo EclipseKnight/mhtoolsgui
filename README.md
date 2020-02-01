@@ -1,6 +1,8 @@
 # mhtoolsgui
 This is a fork (sorta, I was too lazy to actually reupload and delete files for a legit fork in guthub so I just uploaded to a new repo) of the original codestation mhtools https://github.com/codestation/mhtools. This version has a gui and multi file selection for easier use and less terminal command spamming.
 
+#################
+
 Things to note. (When packaging jar)
 - The KIRK related functions requires the Bouncy Castle Crypto API
 that can be downloaded from http://www.bouncycastle.org/download/bcprov-jdk16-146.jar
@@ -14,6 +16,7 @@ version. Folder and multi-file selection is used depending on which command is s
 ex: --create-patch <folder path> will recursively go through all the encrypted bins to add them to the patch. Prior to my change, 
 you had to manually type or paste every directory for the patch. Another thing to note, when selecting files its best to either shift+click or ctrl+click.
 
+#################
 
 encoder/decoder number meaning to use in binary files:
 
@@ -67,5 +70,7 @@ java -jar mhtools.jar --rebuild /home/user/unpacked_countainer_dir 5
 
 To unpack a .pak file
 java -jar mhtools.jar --extract file.pak 6
+
+#################
 
 Thanks to codestation for all of his work creating the original tool. If he has an issue with this repo then feel free to contact me.
