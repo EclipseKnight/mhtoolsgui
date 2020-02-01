@@ -1,5 +1,5 @@
 # mhtoolsgui
-This is a fork of the original codestation mhtools https://github.com/codestation/mhtools. This version has a gui and multi file selection for easier use and less terminal command spamming.
+This is a fork (sorta, I was too lazy to actually reupload and delete files for a legit fork in guthub so I just uploaded to a new repo) of the original codestation mhtools https://github.com/codestation/mhtools. This version has a gui and multi file selection for easier use and less terminal command spamming.
 
 Things to note.
 - The KIRK related functions requires the Bouncy Castle Crypto API
