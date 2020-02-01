@@ -7,7 +7,7 @@ Things to note. (When packaging jar)
 - The KIRK related functions requires the Bouncy Castle Crypto API
 that can be downloaded from http://www.bouncycastle.org/download/bcprov-jdk16-146.jar
 - common-lang 3.9 is required. https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.9
-- The code is pretty trash to be honest, but for out purpose it was a quick solution that helped a lot regardless. A lot of the original code was written with java 1.6 so I had to adapt to atleast java 8 for some qol stuff. 
+- The code is pretty trash to be honest, but for out purpose it was a quick solution that helped a lot regardless. A lot of the original code was written with java 1.6 so I had to adapt to atleast java 8 for some qol stuff. I also deleted all of the gradle build files and just went without any build tools.
 
 Here is a copy paste of the use info from codestation's repo. One thing to note is that these are for the command line use of the 
 program. The gui version can be used either way, just note that the parameters have changed slightly and can be seen in the gui 
